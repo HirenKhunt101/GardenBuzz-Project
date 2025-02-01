@@ -1,0 +1,152 @@
+
+.productImage{
+    width: 250px;
+    height: 250px;
+    /* padding-left: 20px;
+    padding-top: 10px; */
+    /* margin-top: 10px; */
+    /* margin-left: 20px; */
+    border-style:hidden;
+  }
+  
+button:active
+{
+    color:green;
+    background-color:red;
+}
+
+
+
+.addImage {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    color: #2b458a;
+    text-transform: uppercase;
+  }
+  
+  
+  .addImage {
+    text-decoration: none;
+    border: 1px solid rgb(146, 148, 248);
+    position: relative;
+    overflow: hidden;
+  } 
+  
+  .addImage:hover {
+    box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+  }
+  
+  .addImage:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(146, 148, 248, 0.4),
+      transparent
+    );
+    transition: all 650ms;
+  }
+  
+  .addImage:hover:before {
+    left: 100%;
+  }
+
+  
+
+  /* BuyProduct.css */
+.productContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 77px
+}
+
+.productCard {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.productDetails {
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #aaa;
+}
+
+.addToCart{
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+
+.addToCart:active
+{
+    color:white;
+    background-color:rgb(41, 71, 49);
+}
+
+.removeFromCart{
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #c77575;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+.removeFromCart:active
+{
+    color:rgb(18, 18, 18);
+    background-color:rgb(196, 198, 196);
+}
+
+.searchContainer{
+  width: 300px;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  margin-left: 340px;
+}
+
+.filter-search {
+  display: flex;
+}
+.filterContainer {
+  margin-left: 100px;
+  display: flex;
+}
+
+.filterContainer button {
+  margin-right: 10px;
+  padding: 5px 10px 0px 10px;
+  background-color: white;
+  border: none;
+}
+.filterContainer h4 {
+  margin-right: 10px;
+  padding: 22px 10px 0px 2px;
+  background-color: white;
+  border: none;
+}

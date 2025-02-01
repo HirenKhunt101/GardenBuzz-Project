@@ -1,0 +1,71 @@
+.heading_container {
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    width: 180px;
+    font-size: 32px;
+    /* padding: 7px 13px; */
+    margin: 0px 1112px;
+    text-transform: capitalize;
+  }
+
+.heading_text{
+    text-align: end;
+    padding-right: 10px;
+}
+
+hr{
+    margin: 0px 50px;
+    opacity: 40%;
+}
+  
+  
+.two-column-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 0 10px;
+  }
+  
+  .column h3 {
+    margin-top: 0;
+  }
+  
+
+  .priceCalculation {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+  }
+  
+  .priceCalculationItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-weight: 200;
+  }
+  
+  .itemName {
+    font-weight: 500;
+  }
+  
+  .itemValue {
+    font-weight: 400;
+    margin-left: 8px;
+  }
+  
+  .PlaceOrderClass{
+    margin-top: 20px;
+  }
+
+  .quantityButton{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 0px 11px;
+    margin: 3px 12px;
+  }
